@@ -73,7 +73,7 @@ async function getMediaMessage(m, inner = false) {
       location: m.message?.locationMessage,
     };
   } catch (error) {
-    console.log(error);
+    // console.log(error);
   }
 }
 

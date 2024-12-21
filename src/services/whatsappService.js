@@ -66,7 +66,7 @@ class WhatsappService {
       this.eventHandler();
       return this.client;
     } catch (error) {
-      console.log(error);
+      // console.log(error);
     }
   }
 
@@ -192,7 +192,7 @@ class WhatsappService {
                 quoted: quoted ? messages : null,
               }
             );
-            console.log("kkk", k);
+            // console.log("kkk", k);
 
             //SEND TEXT MESSAGE
           } else {
@@ -201,7 +201,7 @@ class WhatsappService {
             });
           }
         } catch (error) {
-          console.log(error);
+          // console.log(error);
         }
       }
     },
@@ -254,7 +254,7 @@ class WhatsappService {
         { userJid: ownerJid }
       );
     } catch (error) {
-      console.log("error prepare", error);
+      // console.log("error prepare", error);
       return false;
     }
   }

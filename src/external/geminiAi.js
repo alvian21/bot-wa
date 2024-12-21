@@ -14,7 +14,7 @@ class GeminiAi {
     const response = await result.response;
     const text = response.text();
     manageMessagesCache(from, "model", text);
-    console.log("text", text);
+    // console.log("text", text);
 
     return text;
   }
